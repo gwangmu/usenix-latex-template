@@ -1,0 +1,105 @@
+\documentclass[letterpaper,twocolumn,10pt]{article}
+\usepackage{deps/usenix-2020-09}
+
+% The preceding line is only needed to identify funding in the first footnote.
+% If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+%-------------------------------------------------------------------------------
+% INCLUDES
+%-------------------------------------------------------------------------------
+
+\input{deps/pkgs}    % all additional packages.
+\input{deps/macros}  % all macro definitions.
+
+%-------------------------------------------------------------------------------
+% FINE-TUNING 
+%-------------------------------------------------------------------------------
+    
+%\floatsetup[table]{capposition=top}
+
+%save space with section spacing
+%\usepackage{titlesec}
+%\titlespacing*{\section}{0pt}{8pt}{8pt}
+%\titlespacing*{\subsection}{0pt}{7pt}{7pt}
+
+%\renewcommand\floatpagefraction{.9}
+%\renewcommand\topfraction{.9}
+%\renewcommand\bottomfraction{.9}
+%\renewcommand\textfraction{.1}   
+%\setcounter{totalnumber}{50}
+%\setcounter{topnumber}{50}
+%\setcounter{bottomnumber}{50}
+
+%-------------------------------------------------------------------------------
+% START OF DOCUMENT
+%-------------------------------------------------------------------------------
+
+\begin{document}
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\title{Fancy Title}
+\author{
+  {\rm Anonymous} \\ {Submission \#XXX}
+}
+
+% NOTE: for page numbering. will be removed at submission.
+\thispagestyle{plain}
+\pagestyle{plain}
+
+\maketitle
+
+%-------------------------------------------------------------------------------
+% ABSTRACT
+%-------------------------------------------------------------------------------
+
+\begin{abstract}
+
+\end{abstract}
+
+%-------------------------------------------------------------------------------
+% INTRODUCTION 
+%-------------------------------------------------------------------------------
+
+\section{Introduction}
+\label{s:intro}
+
+%-------------------------------------------------------------------------------
+% BACKGROUND
+%-------------------------------------------------------------------------------
+
+\section{Background}
+\label{s:back}
+
+%-------------------------------------------------------------------------------
+% CONCLUSION
+%-------------------------------------------------------------------------------
+
+\section{Conclusion}
+\label{s:conclusion}
+
+%-------------------------------------------------------------------------------
+% BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+
+% NOTE: Commented out just until I make the first citation.
+\bibliographystyle{plain}
+\bibliography{main}
+
+%-------------------------------------------------------------------------------
+% APPENDIX
+%-------------------------------------------------------------------------------
+
+\begin{appendix}
+
+\end{appendix}
+
+\end{document}
